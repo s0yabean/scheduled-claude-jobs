@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Template. install.sh fills in __SCRIPT__, __HOME__, __WATCH_DIR__ and __INTERVAL__. -->
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.example.folder-summary</string>
+  <key>ProgramArguments</key><array>
+    <string>/bin/bash</string><string>__SCRIPT__</string>
+  </array>
+  <key>EnvironmentVariables</key><dict>
+    <key>WATCH_DIR</key><string>__WATCH_DIR__</string>
+  </dict>
+  <key>StartInterval</key><integer>__INTERVAL__</integer>
+  <key>RunAtLoad</key><false/>
+  <key>StandardOutPath</key><string>__HOME__/.local/state/scheduled-claude-jobs/folder-summary/launchd.out.log</string>
+  <key>StandardErrorPath</key><string>__HOME__/.local/state/scheduled-claude-jobs/folder-summary/launchd.err.log</string>
+</dict></plist>

@@ -1,0 +1,5 @@
+# One package per line: <ecosystem> <name>. Synthetic example list; replace with your own.
+npm next
+npm react
+pypi requests
+pypi pydantic
