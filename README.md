@@ -1,5 +1,7 @@
 # scheduled-claude-jobs
 
+[![CI](https://github.com/s0yabean/scheduled-claude-jobs/actions/workflows/ci.yml/badge.svg)](https://github.com/s0yabean/scheduled-claude-jobs/actions/workflows/ci.yml)
+
 Run recurring Claude Code jobs on a schedule, either as cloud routines (the laptop can be closed) or under macOS launchd (for jobs that need local files or apps), with skills checked out fresh from a separate repo at every run.
 
 ## The problem
